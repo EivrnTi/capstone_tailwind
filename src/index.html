@@ -1,18 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Font awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
     <!-- Nhúng CSS tailwind -->
-    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./output.css" />
     <title>ASCENT</title>
-</head>
-<body>
-    <h2>demo</h2>
-</body>
+  </head>
+  <body>
+    <!-- <h2>demo</h2> -->
+    <header id="header">
+      <div id="header-container">
+        <div id="top-header" class="bg-destructive sm:block hidden">
+          <div class="container">
+            <div class="flex lg:flex-row flex-col justify-between items-center gap-2 py-[13px]">
+              <div>
+                <ul class="flex gap-7.5">
+                  <li>
+                    <a href="" class="text-cream-foreground flex items-start gap-4"
+                      ><span><i class="fa-solid fa-phone" aria-hidden="true"></i></span>
+                      <span>(629) 555-0129</span></a>
+                  </li>
+
+                  <li>
+                    <a
+                      href class="text-cream-foreground flex items-start gap-4">
+                      <span><i class="fa-solid fa-envelope"></i></i></span>
+                      <span>info@example.com</span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href class="text-cream-foreground flex items-start gap-4"
+                      ><span><i class="fa-solid fa-location-dot"></i></span>
+                      <span> 6391 Elgin St. Celina, 10299</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul class="flex items-center gap-[14px]">
+                  <li>
+                    <a
+                      href
+                      class="rounded-md w-6 h-6 flex text-xs items-center justify-center border border-white border-opacity-20 text-cream-foregound hover:bg-primary transition-all duration-500"
+                      ><i
+                        class="fa-brands fa-facebook-f"
+                        aria-haspopup="true"
+                      ></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href
+                      class="rounded-md w-6 h-6 flex text-xs items-center justify-center border border-white border-opacity-20 text-cream-foregound hover:bg-primary transition-all duration-500"
+                      ><i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href
+                      class="rounded-md w-6 h-6 flex text-xs items-center justify-center border border-white border-opacity-20 text-cream-foregound hover:bg-primary transition-all duration-500"
+                      ><i class="fa-brands fa-linkedin"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href
+                      class="rounded-md w-6 h-6 flex text-xs items-center justify-center border border-white border-opacity-20 text-cream-foregound hover:bg-primary transition-all duration-500"
+                    >
+                      <i class="fa-brands fa-pinterest-p"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
