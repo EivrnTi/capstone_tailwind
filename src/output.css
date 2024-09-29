@@ -593,18 +593,6 @@ video {
   background-color: rgb(237 20 91 / var(--tw-bg-opacity));
 }
 
-.sticky {
-  position: sticky;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.z-40 {
-  z-index: 40;
-}
-
 .flex {
   display: flex;
 }
@@ -680,20 +668,10 @@ video {
   line-height: 1rem;
 }
 
-.transition-\[top\] {
-  transition-property: top;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-
-.duration-300 {
-  transition-duration: 300ms;
 }
 
 .duration-500 {
