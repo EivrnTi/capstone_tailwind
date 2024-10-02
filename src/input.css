@@ -1,3 +1,137 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .bg-destructive {
+        @apply bg-[#ed145b]
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:pb-15 {
+        padding-bottom: 60px;
+    }
+
+    .lg\:pl-7\.5 {
+        padding-left: 30px;
+    }
+
+    .lg\:leading-\[130\%\] {
+        line-height: 130%;
+    }
+
+    .lg\:pt-15 {
+        padding-top: 60px;
+    }
+
+    .lg\:grid-cols-\[37\5\-auto\] {
+        grid-template-columns: 37% auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .md\:leading-\[120\%\] {
+        line-height: 120%;
+    }
+
+    .md\:gap-7\.5 {
+        gap: 30px;
+    }
+
+    .md\:max-w-25 {
+        max-width: 100px;
+    }
+}
+
+@media screen {
+    .gap-7\.5 {
+        gap: 30px;
+    }
+
+    .text-secondary-foreground {
+        color: #1cbbb4;
+    }
+
+    .font-bubblegum-sans {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .container {
+        margin: auto;
+    }
+
+    .text-cream-foreground {
+        color: #fff;
+    }
+    
+    .leading-\[120\%\] {
+        line-height: 120%;
+    }
+
+    .mt-7\.5 {
+        margin-top: 30px;
+    }
+    .leading-\[110\%\] {
+        line-height: 110%;
+    }
+    
+    .pt-7\.5 {
+        padding-top: 30px;
+    }
+
+    .leading-\[141\%\] {
+        line-height: 141%;
+    }
+
+    .btn-rounded-full {
+        max-height: 60px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        transition: all 0.5s ease-in-out;
+        padding: 20px 30px;
+        border-radius: 45px;
+        color: #fff;
+        line-height: normal;
+        border: 2px solid transparent;
+    }
+
+    .pb-7\.5 {
+        padding-bottom: 30px;
+    }
+
+    .leading-\[140\%\] {
+        line-height: 140%;
+    }
+
+    .leading-\[130\%\] {
+        line-height: 130%;
+    }
+
+    .animate-left-right {
+        animation:  left-right 2s linear infinite;
+
+    }
+
+
+}
+
+@media (min-width: 1290px) {
+    .container {
+        max-width: 1290px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .\2xl\:left-15 {
+        left: 60px;
+    }
+}
+
+@keyframes left-right {
+    50% {
+        transform: translateX(14px);
+    }
+}
