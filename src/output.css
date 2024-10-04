@@ -718,12 +718,12 @@ video {
   height: 2.25rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-\[50px\] {
   height: 50px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .max-h-0 {
@@ -758,12 +758,12 @@ video {
   width: 2.25rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-\[50px\] {
   width: 50px;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-2 {
@@ -1002,14 +1002,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#7\] {
-  background-color: #7;
-}
-
-.bg-\[\#7941e\] {
-  background-color: #7941e;
-}
-
 .bg-\[linear-gradient\(180deg\2c _\#FFF0E5_0\%\2c _rgba\(255\2c _240\2c _229\2c _0\.00\)_100\%\)\] {
   background-image: linear-gradient(180deg, #FFF0E5 0%, rgba(255, 240, 229, 0.00) 100%);
 }
@@ -1227,14 +1219,6 @@ video {
   color: rgb(247 148 30 / var(--tw-text-opacity));
 }
 
-.text-\[\] {
-  color: ;
-}
-
-.text-\[\#\] {
-  color: #;
-}
-
 .opacity-0 {
   opacity: 0;
 }
@@ -1375,6 +1359,54 @@ video {
     animation:  left-right 2s linear infinite;
   }
 
+  .after\:absolute::after{
+    position: absolute;
+  }
+
+  .after\:left-0::after {
+    left: 0;
+  }
+
+  .after\:top-0::after {
+    top: 0;
+  }
+
+  .after\:lg\:max-w-\[calc\(100\%-410px\)\]::after{
+    max-width: calc(100% - 410px);
+  }
+
+  .after\:md\:max-w-\[calc\(100\%-310px\)\]::after{
+    max-width: calc(100% - 310px);
+  }
+
+  .after\:max-w-\[calc\(100\%-100px\)\]::after{
+    max-width: calc(100% - 100px);
+  }
+
+  .after\:w-full::after{
+    width: 100%;
+  }
+
+  .after\:h-full::after{
+    height: 100%;
+  }
+
+  .after\:z-[\-1] {
+    z-index: -1;
+  }
+
+  .after\:bg-testimonial-banner::after{
+    background-image: url('../asset/img/bg-img2.png');
+  }
+
+  .after\:bg-cover::after{
+    background-size: cover;
+  }
+
+  .after\:bg-no-repeat::after{
+    background-repeat: no-repeat;
+  }
+
   .swiper {
     margin-left: auto;
     margin-right: auto;
@@ -1456,6 +1488,14 @@ video {
   .btn:hover::after {
     width: 100%;
   }
+
+  .bg-img {
+    background-image: url(../asset/img/egg-shap.png);
+  }
+
+  .bg-banner {
+    background-image: url(../asset/img/bg-img.png);
+  }
 }
 
 @media (min-width: 1290px) {
@@ -1501,9 +1541,9 @@ video {
   width: 100%;
 }
 
-.after\:max-w-\[\(100\%-110px\)\]::after {
+.after\:max-w-\[\(100\%-100px\)\]::after {
   content: var(--tw-content);
-  max-width: (100%-110px);
+  max-width: (100%-100px);
 }
 
 .after\:bg-cover::after {

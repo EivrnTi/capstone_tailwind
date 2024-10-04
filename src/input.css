@@ -119,6 +119,57 @@
 
     }
 
+    .after\:absolute::after{
+        position: absolute;
+    }
+
+    .after\:left-0::after {
+        left: 0;
+    }
+
+    .after\:top-0::after {
+        top: 0;
+    }
+
+    .after\:lg\:max-w-\[calc\(100\%-410px\)\]::after{
+        max-width: calc(100% - 410px);
+    } 
+
+    .after\:md\:max-w-\[calc\(100\%-310px\)\]::after{
+        max-width: calc(100% - 310px);
+    }
+
+    .after\:max-w-\[calc\(100\%-100px\)\]::after{
+        max-width: calc(100% - 100px);
+    }
+
+    .after\:w-full::after{
+        width: 100%;
+    }
+
+    .after\:h-full::after{
+        height: 100%;
+    }
+
+    .after\:z-[\-1] {
+        z-index: -1;
+    }
+
+    .after\:bg-testimonial-banner::after{
+        
+        background-image: url('../asset/img/bg-img2.png');
+    }
+      
+    .after\:bg-cover::after{
+        
+        background-size: cover;
+    }
+      
+    .after\:bg-no-repeat::after{
+        
+        background-repeat: no-repeat;
+    }
+
     .swiper {
         margin-left: auto;
         margin-right: auto;
@@ -201,6 +252,13 @@
         width: 100%;
     }  
     
+    .bg-img {
+        background-image: url(../asset/img/egg-shap.png);
+    }
+
+    .bg-banner {
+        background-image: url(../asset/img/bg-img.png);
+    }
 }
 
 @media (min-width: 1290px) {
