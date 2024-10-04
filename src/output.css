@@ -1359,52 +1359,9 @@ video {
     animation:  left-right 2s linear infinite;
   }
 
-  .after\:absolute::after{
-    position: absolute;
-  }
-
-  .after\:left-0::after {
-    left: 0;
-  }
-
-  .after\:top-0::after {
-    top: 0;
-  }
-
-  .after\:lg\:max-w-\[calc\(100\%-410px\)\]::after{
-    max-width: calc(100% - 410px);
-  }
-
-  .after\:md\:max-w-\[calc\(100\%-310px\)\]::after{
-    max-width: calc(100% - 310px);
-  }
-
-  .after\:max-w-\[calc\(100\%-100px\)\]::after{
-    max-width: calc(100% - 100px);
-  }
-
-  .after\:w-full::after{
-    width: 100%;
-  }
-
-  .after\:h-full::after{
-    height: 100%;
-  }
-
-  .after\:z-[\-1] {
-    z-index: -1;
-  }
-
-  .after\:bg-testimonial-banner::after{
+  .after\:bg-testimonial::after{
+    content: var(--tw--content);
     background-image: url('../asset/img/bg-img2.png');
-  }
-
-  .after\:bg-cover::after{
-    background-size: cover;
-  }
-
-  .after\:bg-no-repeat::after{
-    background-repeat: no-repeat;
   }
 
   .swiper {
@@ -1541,9 +1498,9 @@ video {
   width: 100%;
 }
 
-.after\:max-w-\[\(100\%-100px\)\]::after {
+.after\:max-w-\[calc\(100\%-100px\)\]::after {
   content: var(--tw-content);
-  max-width: (100%-100px);
+  max-width: calc(100% - 100px);
 }
 
 .after\:bg-cover::after {
