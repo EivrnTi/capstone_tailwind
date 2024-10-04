@@ -175,6 +175,10 @@
         color: #1cbbb4;
     }
 
+    .hover\:text-primary-foreground:hover {
+        color: #f7941e;
+    }
+
     .btn {
         position: absolute;
         z-index: 10;
