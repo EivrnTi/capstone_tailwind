@@ -621,10 +621,6 @@ video {
   left: 50%;
 }
 
-.left-\[350px\] {
-  left: 350px;
-}
-
 .right-0 {
   right: 0px;
 }
@@ -643,6 +639,30 @@ video {
 
 .top-5 {
   top: 1.25rem;
+}
+
+.right-7 {
+  right: 1.75rem;
+}
+
+.left-11 {
+  left: 2.75rem;
+}
+
+.left-\[\] {
+  left: ;
+}
+
+.left-\[600px\] {
+  left: 600px;
+}
+
+.left-\[500px\] {
+  left: 500px;
+}
+
+.left-\[350px\] {
+  left: 350px;
 }
 
 .z-10 {
@@ -1417,10 +1437,6 @@ video {
 
   .group\/btn:hover .group-hover\/btntext-secondary-foreground{
     color: #1cbbb4;
-  }
-
-  .hover\:text-primary-foreground:hover {
-    color: #f7941e;
   }
 
   .btn {
