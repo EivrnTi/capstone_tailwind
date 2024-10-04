@@ -641,6 +641,30 @@ video {
   top: 1.25rem;
 }
 
+.right-7 {
+  right: 1.75rem;
+}
+
+.left-11 {
+  left: 2.75rem;
+}
+
+.left-\[\] {
+  left: ;
+}
+
+.left-\[600px\] {
+  left: 600px;
+}
+
+.left-\[500px\] {
+  left: 500px;
+}
+
+.left-\[350px\] {
+  left: 350px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1481,6 +1505,11 @@ video {
 .after\:left-0::after {
   content: var(--tw-content);
   left: 0px;
+}
+
+.after\:top-0::after {
+  content: var(--tw-content);
+  top: 0px;
 }
 
 .after\:z-\[-1\]::after {
