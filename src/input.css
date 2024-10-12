@@ -7,10 +7,3 @@
     @apply bg-[#ed145b];
   }
 }
-.container {
-  max-width: 1280px;
-  margin: auto;
-}
-.bg-warm {
-  background-color: #fff0e5;
-}
