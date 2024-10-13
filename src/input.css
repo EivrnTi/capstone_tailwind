@@ -7,10 +7,244 @@
     @apply bg-[#ed145b];
   }
 }
-.container {
-  max-width: 1280px;
-  margin: auto;
+@layer components {
+  .bg-warm {
+    @apply bg-[#fff0e5];
+  }
 }
-.bg-warm {
-  background-color: #fff0e5;
+@media (min-width: 1024px) {
+  .lg\:pb-15 {
+    padding-bottom: 60px;
+  }
+
+  .lg\:pl-7\.5 {
+    padding-left: 30px;
+  }
+
+  .lg\:leading-\[130\%\] {
+    line-height: 130%;
+  }
+
+  .lg\:pt-15 {
+    padding-top: 60px;
+  }
+
+  .lg\:grid-cols-\[37\5\-auto\] {
+    grid-template-columns: 37% auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:leading-\[120\%\] {
+    line-height: 120%;
+  }
+
+  .md\:gap-7\.5 {
+    gap: 30px;
+  }
+
+  .md\:max-w-25 {
+    max-width: 100px;
+  }
+}
+
+@media screen {
+  .gap-7\.5 {
+    gap: 30px;
+  }
+
+  .text-secondary-foreground {
+    color: #1cbbb4;
+  }
+
+  .text-green-foreground {
+    color: #73be48;
+  }
+
+  .font-bubblegum-sans {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .container {
+    margin: auto;
+  }
+
+  .text-cream-foreground {
+    color: #fff;
+  }
+
+  .leading-\[120\%\] {
+    line-height: 120%;
+  }
+
+  .mt-7\.5 {
+    margin-top: 30px;
+  }
+  .leading-\[110\%\] {
+    line-height: 110%;
+  }
+
+  .pt-7\.5 {
+    padding-top: 30px;
+  }
+
+  .leading-\[141\%\] {
+    line-height: 141%;
+  }
+
+  .btn-rounded-full {
+    max-height: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.5s ease-in-out;
+    padding: 20px 30px;
+    border-radius: 45px;
+    color: #fff;
+    line-height: normal;
+    border: 2px solid transparent;
+  }
+
+  .pb-7\.5 {
+    padding-bottom: 30px;
+  }
+
+  .leading-\[140\%\] {
+    line-height: 140%;
+  }
+
+  .leading-\[130\%\] {
+    line-height: 130%;
+  }
+
+  .animate-left-right {
+    animation: left-right 2s linear infinite;
+  }
+
+  .after\:bg-testimonial::after {
+    content: var(--tw--content);
+    background-image: url("../asset/img/bg-img2.png");
+  }
+
+  .hover\:text-primary-foreground:hover {
+    color: #f7941e;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block;
+  }
+
+  .swiper-horizontal {
+    touch-action: pan-y;
+  }
+
+  .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    box-sizing: content-box;
+  }
+
+  .border-green:hover {
+    border: #73be48;
+  }
+
+  .group-hover\/team:hover {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 50px;
+  }
+
+  .hover\:text-secondary-foreground:hover {
+    color: #1cbbb4;
+  }
+
+  .group\/btn:hover .group-hover\/btn\:text-secondary-foreground {
+    color: #1cbbb4;
+  }
+
+  .group\/btn:hover .group-hover\/btn\:ml-1 {
+    margin-left: 0.25rem;
+  }
+
+  .group\/btn:hover .group-hover\/btntext-secondary-foreground {
+    color: #1cbbb4;
+  }
+
+  .btn {
+    position: absolute;
+    z-index: 10;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.5s ease-in-out;
+    padding: 20px 30px;
+    border-radius: 6px;
+    overflow: hidden;
+    max-height: 60px;
+  }
+
+  .btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #1cbbb4;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.5s ease-in-out;
+    border-radius: 6px;
+  }
+
+  .btn:hover::after {
+    width: 100%;
+  }
+
+  .bg-img {
+    background-image: url(../asset/img/egg-shap.png);
+  }
+
+  .bg-banner {
+    background-image: url(../asset/img/bg-img.png);
+  }
+
+  .hover\:bg-green:hover {
+    background: #73be48;
+  }
+
+  .hover\:text-cream-foreground:hover {
+    color: #fff;
+  }
+}
+
+@media (min-width: 1290px) {
+  .container {
+    max-width: 1290px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\2xl\:left-15 {
+    left: 60px;
+  }
+}
+
+@keyframes left-right {
+  50% {
+    transform: translateX(14px);
+  }
 }
