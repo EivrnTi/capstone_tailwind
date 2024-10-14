@@ -1270,8 +1270,8 @@ video {
   background-image: linear-gradient(180deg, rgba(238,255,200,0.00) 0%, #E9FFB6 100%);
 }
 
-.bg-\[url\(\'\.\.\/assets\/images\/egg-shap\.png\'\)\] {
-  background-image: url('../assets/images/egg-shap.png');
+.bg-\[url\(\'\.\/assets\/images\/egg-shap\.png\'\)\] {
+  background-image: url('./assets/images/egg-shap.png');
 }
 
 .bg-contain {
@@ -3153,11 +3153,11 @@ p {
 }
 
 .bg-\[url\(\'\/assets\/images\/shapes\/egg-shap\.png\'\)\]{
-  background-image: url('/assets/images/egg-shap.png');
+  background-image: url('/src/assets/images/egg-shap.png');
 }
 
 .bg-newsletter-banner{
-  background-image: url('/assets/images/bg-img.png');
+  background-image: url('/src/assets/images/bg-img.png');
 }
 
 .bg-contain{
@@ -4014,7 +4014,7 @@ p {
 
 .after\:bg-testimonial-banner::after{
   content: var(--tw-content);
-  background-image: url('../assets/images/bg-img2.png');
+  background-image: url('../src/assets/images/bg-img2.png');
 }
 
 .after\:bg-cover::after{

@@ -1542,11 +1542,11 @@
   }
   
   .bg-\[url\(\'\/assets\/images\/shapes\/egg-shap\.png\'\)\]{
-    background-image: url('/assets/images/egg-shap.png');
+    background-image: url('/src/assets/images/egg-shap.png');
   }
   
   .bg-newsletter-banner{
-    background-image: url('/assets/images/bg-img.png');
+    background-image: url('/src/assets/images/bg-img.png');
   }
   
   .bg-contain{
@@ -2403,7 +2403,7 @@
   
   .after\:bg-testimonial-banner::after{
     content: var(--tw-content);
-    background-image: url('../assets/images/bg-img2.png');
+    background-image: url('../src/assets/images/bg-img2.png');
   }
   
   .after\:bg-cover::after{
